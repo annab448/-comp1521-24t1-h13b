@@ -1,0 +1,14 @@
+arrays and memory!
+q2/q3/q4 memory access examples, directives and data types
+q7 accessing and changing an array in a loop
+q9 character arrays/strings
+
+remember
+&array[i] = &array[0] (start of array) + offset
+    offset = size of each element * i
+
+steps for array access
+- get &array[0] (use la)
+- calculate offset
+- add &array[0] and offset
+- use lw/sw/lb/sb to access/edit array[i]
