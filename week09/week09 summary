@@ -1,0 +1,3 @@
+print_diary.c - environment variables, constructing path names using snprintf, fgetc to read files
+chmod_if_needed.c - using stat(), checking/changing the mode, using chmod
+print_file_bits.c - using fscanf to read file, bit operations, signed integers
